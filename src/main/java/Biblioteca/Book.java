@@ -9,7 +9,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return id + '\'' + "-" + name + '\'' + "-" + year + '\'' + "-" +  author + '\'';
+        return id  + " - " + name + " - " + year + " - " +  author ;
     }
 
     public Book(String id, String name, String year, String author) {

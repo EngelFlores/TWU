@@ -12,7 +12,9 @@ public class Library {
     public String printList(){
         String list = "";
         for ( Book book: books ) {
-            list+= book.toString() + "\n";
+            if (book.getAvailable()){
+                list+= book.toString() + "\n";
+            }
         }
         return list;
     }
