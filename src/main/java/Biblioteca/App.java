@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
         welcomeMessage();
         Menu menu = new Menu();
-        menu.createListOfBooks();
+        menu.startLibrary();
     }
 
     public static void welcomeMessage(){
