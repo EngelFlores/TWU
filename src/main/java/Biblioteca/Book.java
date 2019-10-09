@@ -37,7 +37,7 @@ public class Book {
         return author;
     }
 
-    public Boolean getAvailable() {
+    public Boolean getAvailability() {
         return available;
     }
 

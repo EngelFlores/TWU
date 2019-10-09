@@ -28,6 +28,6 @@ public class MenuTest {
     public void showMenuOption(){
         Menu menu = new Menu();
         menu.showMenu();
-        assertThat(outContent.toString(), containsString("Welcome to Biblioteca. Your one-stop-shop for great book titles in Bangalore!"));
+        assertThat(outContent.toString(), containsString("Please select a option!"));
     }
 }
