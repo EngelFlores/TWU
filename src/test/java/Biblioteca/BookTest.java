@@ -12,7 +12,12 @@ public class BookTest {
     }
 
     @Test
-    public void shouldReturnTheBookAvailability(){
+    public void shouldReturnTrueIfTheBookIsAvailable(){
+        assertEquals(true,book.getAvailability());
+    }
+
+    @Test
+    public void shouldReturnFalseIfTheBookIsUnavailable(){
         book.setAvailable(false);
         assertEquals(false,book.getAvailability());
     }
